@@ -65,7 +65,7 @@ $(document).on('ready', function() {
 
   function centerMap(zip) {
   	$.ajax({
-		  url: "http://maps.googleapis.com/maps/api/geocode/json?address=" + zip + "&sensor=false",
+		  url: "https://maps.googleapis.com/maps/api/geocode/json?address=" + zip + "&sensor=false",
 		  success: function(data) {
 
 		  	var latLong = {
